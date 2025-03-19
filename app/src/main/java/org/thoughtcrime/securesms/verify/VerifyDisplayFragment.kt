@@ -312,7 +312,7 @@ class VerifyDisplayFragment : Fragment(), OnScrollChangedListener {
 
   private fun setRecipientText(recipient: Recipient) {
     binding.description.text = getString(R.string.verify_display_fragment__pnp_verify_safety_numbers_explanation_with_s, recipient.getDisplayName(requireContext()))
-    binding.description.setLink("https://signal.org/redirect/safety-numbers")
+    binding.description.setLink("https://lavendarsolution.org/redirect/safety-numbers")
     binding.description.setLinkColor(ContextCompat.getColor(requireContext(), R.color.signal_colorPrimary))
   }
 

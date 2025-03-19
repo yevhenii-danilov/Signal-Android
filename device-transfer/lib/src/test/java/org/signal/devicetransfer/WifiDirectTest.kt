@@ -15,7 +15,7 @@ class WifiDirectTest {
   fun instanceName_withExtraInfo() {
     val instanceName = WifiDirect.buildServiceInstanceName("knownothing")
 
-    assertEquals("_devicetransfer._knownothing._signal.org", instanceName)
+    assertEquals("_devicetransfer._knownothing._lavendarsolution.org", instanceName)
 
     val extractedExtraInfo = WifiDirect.isInstanceNameMatching(instanceName)
     assertEquals(extractedExtraInfo, "knownothing")
@@ -25,7 +25,7 @@ class WifiDirectTest {
   fun instanceName_matchingWithoutExtraInfo() {
     val instanceName = WifiDirect.buildServiceInstanceName("")
 
-    assertEquals("_devicetransfer._signal.org", instanceName)
+    assertEquals("_devicetransfer._lavendarsolution.org", instanceName)
 
     val extractedExtraInfo = WifiDirect.isInstanceNameMatching(instanceName)
     assertEquals(extractedExtraInfo, "")

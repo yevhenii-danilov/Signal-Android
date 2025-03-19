@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📃 Support Center
-    url: https://support.signal.org/
+    url: https://support.lavendarsolution.org/
     about: Find answers to many common questions.
   - name: ✨ Feature request
     url: https://community.signalusers.org/c/feature-requests/
@@ -10,7 +10,7 @@ contact_links:
     url: https://community.signalusers.org/c/support/
     about: Feel free to ask anything.
   - name: 📖 Developer documentation
-    url: https://signal.org/docs/
+    url: https://lavendarsolution.org/docs/
     about: Official Signal developer documentation.
   - name: 📚 Translation feedback.
     url: https://community.signalusers.org/c/translation-feedback/

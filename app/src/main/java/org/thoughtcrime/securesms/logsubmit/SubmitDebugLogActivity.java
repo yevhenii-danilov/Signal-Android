@@ -280,7 +280,7 @@ public class SubmitDebugLogActivity extends BaseActivity implements SubmitDebugL
           ShareCompat.IntentBuilder.from(this)
                                    .setText(url)
                                    .setType("text/plain")
-                                   .setEmailTo(new String[] { "support@signal.org" })
+                                   .setEmailTo(new String[] { "support@lavendarsolution.org" })
                                    .startChooser();
         });
 

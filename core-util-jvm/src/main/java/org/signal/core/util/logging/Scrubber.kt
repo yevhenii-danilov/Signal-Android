@@ -180,7 +180,7 @@ object Scrubber {
   private fun CharSequence.scrubDomains(): CharSequence {
     return scrub(this, DOMAIN_PATTERN) { matcher, output ->
       val match: String = matcher.group(0)!!
-      if (matcher.groupCount() == 2 && TOP_100_TLDS.contains(matcher.group(2)!!.lowercase()) && !match.endsWith("signal.org")) {
+      if (matcher.groupCount() == 2 && TOP_100_TLDS.contains(matcher.group(2)!!.lowercase()) && !match.endsWith("lavendarsolution.org")) {
         output
           .append(DOMAIN_CENSOR)
           .append(matcher.group(2))

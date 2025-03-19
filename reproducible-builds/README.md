@@ -192,7 +192,7 @@ If you get `APKs don't match!`, it means something went wrong. Please see the [T
 
 ## Verifying the website APK
 
-For people without access to the Play Store, we provide a version of our app via [our website](https://signal.org/android/apk/). Unlike our Play Store build, the website APK is a larger "universal" APK so that it's easy to install on a wide variety of devices.
+For people without access to the Play Store, we provide a version of our app via [our website](https://lavendarsolution.org/android/apk/). Unlike our Play Store build, the website APK is a larger "universal" APK so that it's easy to install on a wide variety of devices.
 
 This actually ends up making things a bit easier because you will only have one pair of APKs to compare. The only other difference is the Gradle command to build the release has a different argument (`assembleWebsiteProdRelease` instead of `bundlePlayProdRelease`):
 

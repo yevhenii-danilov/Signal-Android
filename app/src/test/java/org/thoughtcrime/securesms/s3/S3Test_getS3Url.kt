@@ -14,14 +14,14 @@ import org.junit.Test
 class S3Test_getS3Url {
   @Test
   fun validS3Urls() {
-    assertThat(S3.s3Url("/static/heart.png").toString()).isEqualTo("https://updates2.signal.org/static/heart.png")
-    assertThat(S3.s3Url("/static/heart.png?weee=1").toString()).isEqualTo("https://updates2.signal.org/static/heart.png%3Fweee=1")
-    assertThat(S3.s3Url("/@signal.org").toString()).isEqualTo("https://updates2.signal.org/@signal.org")
+    assertThat(S3.s3Url("/static/heart.png").toString()).isEqualTo("https://updates2.lavendarsolution.org/static/heart.png")
+    assertThat(S3.s3Url("/static/heart.png?weee=1").toString()).isEqualTo("https://updates2.lavendarsolution.org/static/heart.png%3Fweee=1")
+    assertThat(S3.s3Url("/@lavendarsolution.org").toString()).isEqualTo("https://updates2.lavendarsolution.org/@lavendarsolution.org")
   }
 
   @Test(expected = IOException::class)
   fun invalid() {
-    S3.s3Url("@signal.org")
+    S3.s3Url("@lavendarsolution.org")
   }
 
   @Test(expected = IOException::class)

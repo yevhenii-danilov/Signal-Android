@@ -54,7 +54,7 @@ class RecipientExporterTest {
   fun asAddContactIntent_with_email() {
     val recipient = givenEmailRecipient(
       profileName = ProfileName.fromParts("Bob", null),
-      email = "bob@signal.org"
+      email = "bob@lavendarsolution.org"
     )
 
     val intent = RecipientExporter.export(recipient).asAddContactIntent()
@@ -62,7 +62,7 @@ class RecipientExporterTest {
     assertEquals(Intent.ACTION_INSERT_OR_EDIT, intent.action)
     assertEquals(ContactsContract.Contacts.CONTENT_ITEM_TYPE, intent.type)
     assertEquals("Bob", intent.getStringExtra(ContactsContract.Intents.Insert.NAME))
-    assertEquals("bob@signal.org", intent.getStringExtra(ContactsContract.Intents.Insert.EMAIL))
+    assertEquals("bob@lavendarsolution.org", intent.getStringExtra(ContactsContract.Intents.Insert.EMAIL))
     assertNull(intent.getStringExtra(ContactsContract.Intents.Insert.PHONE))
   }
 

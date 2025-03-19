@@ -4,7 +4,7 @@ Signal is a simple, powerful, and secure messenger.
 
 Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.
 
-Currently available on the Play Store and [signal.org](https://signal.org/android/apk/).
+Currently available on the Play Store and [lavendarsolution.org](https://lavendarsolution.org/android/apk/).
 
 <a href='https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
@@ -35,7 +35,7 @@ Help
 ## Support
 For troubleshooting and questions, please visit our support center!
 
-https://support.signal.org/
+https://support.lavendarsolution.org/
 
 ## Documentation
 Looking for documentation? Check out the wiki!
